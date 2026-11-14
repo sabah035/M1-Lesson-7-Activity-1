@@ -3,7 +3,7 @@
 # of 'is' identity operator
 
 
-x = 5
+x = 7
 
 if (type(x) is int):
 
@@ -14,7 +14,7 @@ else:
     print("false")
 
  
-x = 5.5
+x = 4.5
 
 if (type(x) is not float):
 
@@ -25,16 +25,16 @@ else:
     print("false")
 
  
-x = 20
+x = 30
 
-y = 20
+y = 30
 
 if (x is y):
 
     print("x & y SAME identity")
 
  
-y = 30
+y = 40
 
 if (x is not y):
 
